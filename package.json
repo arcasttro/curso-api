@@ -1,0 +1,23 @@
+{
+  "name": "curso-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes API Rest utilizando Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcasttro/curso-api.git"
+  },
+  "author": "Arthur Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arcasttro/curso-api/issues"
+  },
+  "homepage": "https://github.com/arcasttro/curso-api#readme",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.2.1",
+    "cypress": "^10.10.0"
+  }
+}
